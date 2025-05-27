@@ -80,9 +80,9 @@ body {
     font-weight: 400;
 }
 
-.headerMenu::before{
-    background:url(images/mainLogoR.png);
-    content:"";
+.headerMenu::before {
+    background: url(images/mainLogoR.png);
+    content: "";
     background-size: 100%;
     width: 3.5rem;
     height: 4.5rem;
@@ -340,17 +340,13 @@ fr3Left {
     aspect-ratio: 275/143;
 }
 
-.imgA {
-    background-image: url(/images/fr7-1.png);
+.imgBx img {
+    width: 100%;
 }
+
 
 .imgB {
-    background-image: url(/images/fr7-2.png);
     left: 17rem;
-}
-
-.imgC {
-    background-image: url(/images/fr7-3.png);
 }
 
 .frame8 {
@@ -372,7 +368,6 @@ fr3Left {
 .ImgBxFr8-1,
 .ImgBxFr8-2,
 .ImgBxFr8-3 {
-    background-image: url(/images/fr8-1.png);
     height: 4.75rem;
     width: 4.75rem;
     position: relative;
@@ -380,16 +375,7 @@ fr3Left {
     left: 4rem;
 }
 
-.ImgBxFr8-2 {
-    background-image: url(/images/fr8-2.png);
-}
-
-.ImgBxFr8-3 {
-    background-image: url(/images/fr8-3.png);
-}
-
 .fr8Stars {
-    background-image: url(/images/fr8-stars.png);
     background-size: contain;
     height: 1rem;
     background-repeat: no-repeat;
@@ -494,20 +480,12 @@ fr3Left {
     background-repeat: no-repeat;
 }
 
-.desImgA {
-    background-image: url(/images/footImgLeft.png);
-}
-
 .desImgB {
-    background-image: url(/images/footImgCenter.png);
     width: 20vw;
     position: relative;
     top: 5.5rem;
 }
 
-.desImgC {
-    background-image: url(/images/footImgRight.png);
-}
 
 .footer {
     padding: 6vw 2vw 2vw 2vw;
@@ -696,6 +674,10 @@ fr3Left {
 
 .smallTxtArtisan {
     font-size: 0.75rem;
+}
+
+.contactBtn a {
+    color: white;
 }
 
 .contactBtn {
@@ -995,55 +977,55 @@ fr3Left {
 /* Contact */
 
 
-.contactBody{
+.contactBody {
     display: flex;
     margin: 8rem 8rem 2rem 8rem;
 }
 
 
 .contLeftBox,
-.contFormBox{
+.contFormBox {
     flex: 1;
 }
 
 .contact-form {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-form label {
-  margin-bottom: 5px;
-  font-weight: bold;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .contact-form input,
 .contact-form textarea {
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 1.5px solid #f5b7b1;
-  border-radius: 5px;
-  background-color: #fff3e6;
-  font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1.5px solid #f5b7b1;
+    border-radius: 5px;
+    background-color: #fff3e6;
+    font-size: 16px;
 }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: #d97f6e;
+    color: #d97f6e;
 }
 
 .contact-form button {
-  padding: 12px;
-  background-color: #6c0d0d;
-  color: white;
-  font-size: 16px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  align-self: flex-end;
+    padding: 12px;
+    background-color: #6c0d0d;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-self: flex-end;
 }
 
 
 
-.fr8Review p{
+.fr8Review p {
     font-size: 0.75rem;
 }
